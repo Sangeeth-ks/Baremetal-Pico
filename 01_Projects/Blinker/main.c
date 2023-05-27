@@ -71,7 +71,7 @@ int notmain ( void )
         DELAY(0x100000);
         //turn off the led
         PUT32(SIO_GPIO_OUT_CLR,1<<25);
-        
+        DELAY(0x100000);
     }
     return(0);
 }
